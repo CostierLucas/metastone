@@ -1,0 +1,133 @@
+.wrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  height: auto;
+  padding: 0 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  .lueur {
+    height: 100% !important;
+    position: absolute;
+    right: -20%;
+    z-index: 1;
+  }
+
+  // element
+  .spacer {
+    height: 20vh;
+    width: 100%;
+  }
+
+  header {
+    position: absolute;
+    z-index: 3;
+  }
+}
+
+.mint {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+  header {
+    position: absolute;
+  }
+
+  &Container {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+
+    .progress {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .price {
+      text-align: center;
+
+      p {
+        color: #000;
+        font-family: "Gallery Modern";
+        font-weight: bold;
+        font-size: 40px;
+        width: 100%;
+        line-height: 30px;
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+
+    hr {
+      margin-bottom: 30px;
+    }
+
+    .address {
+      text-align: right;
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        color: #000;
+        font-family: "Gallery Modern";
+        margin: 0;
+        font-size: 25px;
+        width: 100%;
+      }
+    }
+
+    .counter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      font-size: 30px;
+      margin-bottom: 40px;
+      color: #000;
+      font-family: "Gallery Modern";
+
+      button {
+        font-family: "Gallery Modern";
+        border: none;
+        background: none;
+        color: #000;
+        font-size: 40px;
+      }
+    }
+
+    .mintButton {
+      display: flex;
+      justify-content: center;
+
+      .soldOut {
+        color: #000;
+        font-family: "Gallery Modern";
+        font-size: 30px;
+        margin: 0;
+      }
+
+      button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        font-family: "Gallery Modern";
+        font-size: 25px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

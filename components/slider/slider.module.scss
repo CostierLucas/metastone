@@ -1,0 +1,29 @@
+.imageContainer {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 80%;
+  img {
+    width: 30vw;
+    border-radius: 12px;
+    margin-right: 40px;
+    margin-bottom: 7px;
+  }
+}
+
+.wrapper{
+  ::-webkit-scrollbar {
+    height: 8px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(209, 209, 209); 
+  }
+}

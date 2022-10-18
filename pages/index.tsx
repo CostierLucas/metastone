@@ -53,7 +53,9 @@ const Home: NextPage = () => {
         </a>
 
         {/* Slider */}
-        <Slider></Slider>
+        <div className="sliderHome">
+          <Slider></Slider>
+        </div>
         <img className="lueur" src="/img/lueur.svg" alt="intro" />
       </section>
 

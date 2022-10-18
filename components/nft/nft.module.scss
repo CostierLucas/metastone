@@ -6,6 +6,18 @@
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  align-items: center;
+
+  a{
+    cursor: pointer;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 7px;
+    // &::after {
+    //   margin: 3px;
+    //   content: url("/img/arrow.svg");
+    // }
+  }
 
   .lueur {
     height: 100% !important;
@@ -29,6 +41,7 @@
     height: 400px !important;
     width: 400px !important;
     margin: auto;
-    background-color: red;
+    
+    // background-color: red;
   }
 }

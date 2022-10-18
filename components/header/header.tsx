@@ -45,8 +45,8 @@ const Header: React.FC = () => {
           </li>
           <li>
             {/* href="/holders" */}
-            <Link href="/">
-              <a className={styles.notActive}>Holder's aera</a>
+            <Link href="/holders">
+              <a>Holder's aera</a>
             </Link>
           </li>
         </ul>

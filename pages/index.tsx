@@ -42,10 +42,11 @@ const Home: NextPage = () => {
         </h2>
         <p>
           Our collection thrives on recreating a mix of all cuts and stone types
-          that would be possible. The MetaStone’s collection includes hundreds
-          of rare gemstone-encrusted face masks inspired by historic templates
-          and dozens of legendary stone cuts in shapes that go beyond today's
-          reality. These are also all manipulable in the Holder's inventory.
+          that would be possible. The MetaStone{"'"}s collection includes
+          hundreds of rare gemstone-encrusted face masks inspired by historic
+          templates and dozens of legendary stone cuts in shapes that go beyond
+          today{"'"}s reality. These are also all manipulable in the Holder{"'"}
+          s inventory.
         </p>
         <a className="arrow" href="#Gallery">
           Get your stone
@@ -274,11 +275,11 @@ const Home: NextPage = () => {
             MetaMask or Coinbase Wallet funded, you can connect that Wallet to
             MetaStone and purchase your MetaStone NFT. Once these steps are
             done, you must link your Wallet to our website and access the mint
-            page by clicking the "Get your stone" buttons on our home page.
-            These will lead you to our mint page, where you will be able to mint
-            the amount of MetaStone NFTs you desire. If none are available for
-            mint on our website, you can visit our OpenSea and bid on the
-            secondary market.
+            page by clicking the {"'"}Get your stone{"'"} buttons on our home
+            page. These will lead you to our mint page, where you will be able
+            to mint the amount of MetaStone NFTs you desire. If none are
+            available for mint on our website, you can visit our OpenSea and bid
+            on the secondary market.
           </p>
         </div>
         <div className="question">

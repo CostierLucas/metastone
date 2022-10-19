@@ -32,7 +32,6 @@ const allModels = [
 
 const Model = (props: any) => {
   let glb = useGLTF(props.model)
-
   return <primitive object={glb.scene} scale={1.6} />
 }
 

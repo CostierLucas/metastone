@@ -58,7 +58,7 @@ const Mint: React.FC = () => {
     const getSigner = provider.getSigner()
     const contract = new ethers.Contract(
       contractAddress,
-      ContractAbi.abi,
+      ContractAbi,
       getSigner,
     )
 
@@ -108,11 +108,7 @@ const Mint: React.FC = () => {
     setIsMinting(true)
     const signer = provider.getSigner()
 
-    const contract = new ethers.Contract(
-      contractAddress,
-      ContractAbi.abi,
-      signer,
-    )
+    const contract = new ethers.Contract(contractAddress, ContractAbi, signer)
 
     let tab: string[] = []
     tokens.map((token) => {
@@ -141,11 +137,7 @@ const Mint: React.FC = () => {
   const publicMint = async () => {
     setIsMinting(true)
     const signer = provider.getSigner()
-    const contract = new ethers.Contract(
-      contractAddress,
-      ContractAbi.abi,
-      signer,
-    )
+    const contract = new ethers.Contract(contractAddress, ContractAbi, signer)
 
     let overrides = {
       value: BNPublicSalePrice?.mul(count),
